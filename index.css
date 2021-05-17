@@ -1,0 +1,63 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+#main{
+padding: 0 0.5rem;
+background-color:rgb(245, 245, 245);
+margin-top:-1.5rem;
+margin-bottom:-1rem;
+padding-bottom: 2rem;
+}
+
+.title{
+  text-align: center;
+  padding-top:2rem;
+}
+#img-div{
+  background-color:rgb(255, 255, 255);
+  padding:2rem 6rem;
+  margin:1rem;
+}
+
+#image{
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+#img-caption{
+  text-align: center;
+}
+ul h2{
+  text-align: center;
+}
+ul li{
+  margin-bottom:1rem;
+  font-size:1.1rem;
+}
+
+#tribute-info{
+  padding: 0 5rem;
+}
+.link{
+  text-align: center;
+  font-size:1.5rem;
+}
+
+#tribute-info i{
+  text-align: center;
+  margin: 0 2rem;
+}
+
+
+@media screen and (max-width:600px){
+  #tribute-info{
+    padding: 0 2rem;
+  }
+  #img-div{
+    background-color:rgb(255, 255, 255);
+    padding:2rem 2rem;
+    margin:1rem;
+  }
+}
